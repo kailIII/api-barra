@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'gobCLRegular';
+    src: url('font/gobcl_regular-webfont.eot');
+    src: url('font/gobcl_regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/gobcl_regular-webfont.ttf') format('truetype'),
+        url('font/gobcl_regular-webfont.svg#gobCLRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 87.5%;
+    color: #333;
+}
+
+/*INICIO BARRA*/
+#topbarCHA {
+    background-image: url(../images/bg-barra.png);
+    background-repeat: repeat-x;
+    height: 30px;
+}
+#topbarCHA ul.links {
+    margin: 0 auto;
+    padding:0;
+    width: 970px;
+    display: block;
+    overflow: hidden;
+    height: 30px;
+}
+#topbarCHA ul.links li {
+    background: url("../images/menu-li-right.png") no-repeat scroll right top transparent;
+    border-right: 1px solid #FFFFFF;
+    padding: 0 10px;
+    line-height: 29px;
+    font-family: 'gobCLRegular';
+    color: #787878;
+    vertical-align: top;
+	float:left;
+	list-style: none;
+}
+#topbarCHA ul.links li.buscadorCHA {
+    background-image: none;
+    border: none;
+    margin-left: 15px;
+    background: none;
+	float: right;
+}
+#topbarCHA ul.links li.buscadorCHA form {
+    display: inline-block;
+}
+#topbarCHA ul.links li.buscadorCHA input.txt {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #d2d2d2;
+    padding: 2px;
+    width: 140px;
+    font-family: 'gobCLRegular';
+}
+#topbarCHA ul.links li.buscadorCHA input.buscar {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #d2d2d2;
+    width: 20px;
+    text-indent: -5000px;
+    background-image: url(../images/buscar.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#topbarCHA ul.links li a {
+    font-family: 'gobCLRegular';
+    color: #787878;
+    text-decoration: none;
+    padding: 2px 0 2px 24px;
+}
+#topbarCHA ul.links a.gobcl {
+    background-image: url("../images/ico_chile.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#topbarCHA ul.links a.chileatiende {
+    background-image: url("../images/ico_chileatiende.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#topbarCHA ul.links li span.chileatiende {
+    background-image: url(../images/tel.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    color: #0C6CB8;
+}
+#topbarCHA ul.links a.chilecumple {
+    background-image: url("../images/ico_chilecumple.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#topbarCHA ul.links a.gobabierto {
+    background-image: url("../images/ico_gobabierto.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#topbarCHA ul.links li.gabierto a {
+    background-image: url("../images/mail.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#topbarCHA ul.links li a.gobcl_noicon, #topbarCHA ul.links li a.chileatiende_noicon, #topbarCHA ul.links li a.chilecumple_noicon, #topbarCHA ul.links li a.gobabierto_noicon {
+    padding: 2px 0 2px 2px;
+}
+#topbarCHA .links li .msgbarracha {
+    color: #003F92;
+    text-decoration: underline;
+    padding-left:0;
+}
+#topbarCHA .links li .msgbarracha:hover {
+    text-decoration: none;
+}
+#topbarCHA .links li div#cas_Holder {
+    text-decoration: none;
+    overflow: hidden; 
+    height: 20px;
+}
+#topbarCHA .links li div#cas_Holder p.cas_div {
+    margin: 0;
+    line-height: 30px;
+}
+#topbarCHA ul.links li div#cas_Holder p.cas_div a {
+    color: #004B99;
+    font-family: 'gobCLRegular';
+    padding:0;
+    text-decoration: none;
+}
+#topbarCHA ul.links li.msgcha {
+    height: 30px;
+    width: 210px;
+	overflow: hidden;
+}
+#topbarCHA ul.links li.revision {
+    color: #2C7FC0;
+	float: right;
+	background: none;
+	border-right: none;
+	padding-right: 0;
+	background-image: url("../images/info.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+	padding-left: 22px;
+}
+#topbarCHA ul.links li.deco {
+	width: 171px;
+	background-image: url(../images/bg_deco.png);
+	background-repeat: repeat-y;
+	float: right;
+	margin-left: 10px;
+        padding: 0;
+}
+#topbarCHA ul.links li.datos {
+	color: #2C7FC0;
+    font-weight: bold;
+	float: right;
+	background: none;
+	border-right: none;
+	padding-right: 0;
+	background-image: url("../images/info.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+	padding-left: 22px;
+}
+#topbarCHA ul.links li.gabierto {
+	background-image: url("../images/ico_gobabierto.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+	float: right;
+	background: none;
+	border-right: none;
+	padding-right: 0;
+	padding-left: 0;
+}
+#topbarCHA ul.links li.gabierto a {
+	color: #2C7FC0;
+    font-weight: bold;
+	padding: 2px 0 2px 18px;
+}
+/*FIN BARRA*/
+body.generador {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    line-height: 1.4;
+    background:#F8F8F8 url(../img/bg_new.png) repeat left top;
+    background:url(../images/bg_new.png) repeat left top,-moz-radial-gradient(center,circle cover,#f8f8f8 0,#e2e2e2 100%);
+    background:url(../images/bg_new.png) repeat left top,-webkit-radial-gradient(center,circle cover,#f8f8f8 0,#e2e2e2 100%);
+    background:url(../images/bg_new.png) repeat left top,radial-gradient(center,circle cover,#f8f8f8 0,#e2e2e2 100%);
+    height: 100%;
+}
+h1, h2, h3, h4, h5 {
+    color: #004B99;
+    font-family: 'gobCLRegular';
+}
+h1, h2, h3, h4, h5, p {
+    line-height: 1.4em;
+    margin: 15px 10px;
+}
+h1 {
+    margin-bottom:20px;
+    background-image: url(../images/h1.png);
+    background-position: left center;
+    padding-left: 28px;
+    background-repeat: no-repeat;
+}
+div.container {
+    margin: 0 auto;
+    width: 960px;
+    margin-top: 30px;
+}
+body.generador form label span {
+    font-family: 'gobCLRegular';
+    color: #787878;
+    text-decoration: none;
+    padding: 2px 0 2px 24px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+body.generador form label span.gobcl {
+    background-image: url("../images/ico_chile.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+body.generador form label span.chileatiende {
+    background-image: url("../images/ico_chileatiende.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+body.generador form label span.chileatiende span {
+    background-image: url(../images/tel.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    color: #0C6CB8;
+}
+body.generador form label span.chileavanza {
+    background-image: url("../images/ico_chileavanza.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+body.generador form label span.gobiabierto {
+    background-image: url("../images/ico_gobabierto.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+body.generador form label span.buscador {
+    background-image: url("../images/buscador.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 165px;
+    display:inline-block;
+    text-indent: -5000px;
+}
+.formulario {
+    background-image: url("../images/bg_separador.png");
+    background-position: right top;
+    background-repeat: repeat-y;
+    float: left;
+    padding-right: 10px;
+    width: 400px;
+}
+.formulario input.textfield {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #d2d2d2;
+    padding: 4px 2px;
+}
+.formulario input.dominio {
+    width: 250px;
+}
+.formulario select {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #d2d2d2;
+    padding: 2px;
+}
+.formulario label {
+    font-weight:bold;
+}
+.formulario p.enlaces {
+    margin-top: 30px;
+    font-weight: bold;
+}
+.formulario p input#generar {
+    border: solid 1px #d2d2d2;
+    background-image: url(../images/bg_footer.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #787878;
+    font-family: 'gobCLRegular';
+    padding: 10px 70px;
+    cursor: pointer;
+}
+.code p.enlaces {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.code {
+    float: left;
+    width: 500px;
+    margin-left: 30px;
+}
+.code textarea  {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #d2d2d2;
+    padding: 4px;
+    margin: 15px 10px;
+}
+h2 span.numero {
+    color: #FFF;
+    background-image: url(../images/numero.png);
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    font-size: 0.8em;
+}
+.obligatorio {
+    color:#F00;
+}
+.clear {
+    clear: both;
+}
+#footer {
+    background-image: url("../images/bg_footer.png");
+    background-repeat: repeat-x;
+    color: #000000;
+    height: 48px;
+    margin-top: 20px;
+}
+#footer .container {
+    font-family: 'gobCLRegular';
+    font-size: 1em;
+    padding-top: 13px;
+    text-align: right;
+    margin-top: 0;
+}
+#footer .container .detalle {
+    background-image: url("../images/color.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    float: right;
+    height: 15px;
+    margin-right: 95px;
+    padding-bottom: 20px;
+}
+#footer a {
+    color: #000000;
+    text-decoration: none;
+}
+#exposeMask {
+	background-image: url(../images/mensaje.png);
+	background-repeat: no-repeat;
+	background-position: center 100px;
+}
+#topbarCHA ul.links li ul.elturnUp {
+	padding: 0;
+}
+#topbarCHA ul.links li ul.elturnUp li {
+	border-right: none;
+	padding: 0;
+	background-image: none;
+}
+#topbarCHA ul.links li ul.elturnUp li a {
+	padding: 0;
+}
+#topbarCHA ul.links li ul.elturnUp li.legado a span {
+	display: inline-block;
+	font-weight: bold;
+	color: #000;
+	background-image: url(../images/legado.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 25px;
+}
+#topbarCHA ul.links li ul.elturnUp li.sinpapeleo a {
+		font-weight: bold;
+}
+#topbarCHA ul.links li ul.elturnUp li.sinpapeleo a span {
+	display: inline-block;
+	background-image: url(../images/sinpapeleo.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 25px;
+}
+#topbarCHA ul.links li.mensajes {
+	float: right;
+}

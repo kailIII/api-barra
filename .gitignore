@@ -1,0 +1,9 @@
+syntax: glob
+nbproject
+.idea
+syntax:regexp
+\.orig$
+\.orig\..*$
+\.chg\..*$
+\.rej$
+\.conflict\~$

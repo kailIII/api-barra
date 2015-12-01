@@ -1,0 +1,178 @@
+#topbar {
+  margin: 0;
+  padding: 0;
+  min-height: 32px;
+  height: 32px;
+  overflow: hidden;
+  background:none;
+  filter:none;
+  box-shadow:none;
+  border-bottom: 2px solid #d5d5d5;
+  float: left;
+}
+
+.navbar-nav {
+  margin: 0;
+  height: 32px;
+}
+
+#topbar .icon-fixed {
+  float: left;
+}
+
+#topbar .divider-vertical {
+  height: 18px;
+  margin: 7px 0px;
+  border-left: 1px solid #bdc9d1;
+}
+
+
+#topbar * {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  font-family: "gobCL", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+#topbar form {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav>li>a.label-text,
+.navbar-nav>li>a.label-icon {
+  color: #475156;
+  width: auto;
+  margin: 7px 8px;
+}
+
+.navbar-nav>li>a.label-text:hover,
+.navbar-nav>li>a.label-icon:hover {
+  color: #475156;
+  text-decoration: underline;
+}
+
+.navbar-nav>li>a.label-text {
+  padding: 0;
+}
+
+.navbar-nav>li>a.label-icon {
+  padding: 0px 0 1px 20px;
+}
+
+.navbar-nav>li>a.no-sprite {
+  padding: 0px 0 1px 0px;
+}
+
+.navbar-nav>li>a.sprite { 
+  background-image: url('../images/sprite.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+} 
+
+.sprite.iframe_ico_chileatiende { 
+  background-position: 0px 0px; 
+  width: 15px; 
+  height: 16px;
+} 
+
+.sprite.iframe_ico_chile { 
+  background-position: 0px -26px; 
+  width: 15px; 
+  height: 16px;
+}
+
+.sprite.iframe_ico_gobabierto { 
+  background-position: 0px -78px; 
+  width: 16px; 
+  height: 16px;  
+}
+
+#topbar .buscador {
+  margin: 0 0 0 10px;
+  width: 192px;
+  height: 32px;
+}
+
+#topbar .buscador form {
+  border:none;
+}
+
+#topbar .buscador form button#submit {
+    width: 32px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    cursor:pointer;
+    border-radius: 0;
+    background-color: #bdc9d1;
+    padding: 0px 10px;
+    margin: 0;
+    height: 30px;
+  }
+
+#topbar .buscador form span.icon-buscar {
+  background: url('../images/topbar-search-submit-bg.png') center no-repeat;
+  height: 13px;
+  width: 13px;
+  display: block;
+  margin: 0;
+}
+
+#topbar .buscador form button#submit:hover {
+  background-color: #0168b3;
+}
+
+#topbar .buscador form input#query {
+  background: #e6e6e6;
+  color: #7a8791;
+  padding: 8px;
+  width: 160px;
+  font-family: sans-serif;
+  font-size: 12px;
+  border-radius: 0px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  outline: none;
+  border: none !important;
+  box-shadow:none !important;
+  width: 160px;
+  height: 30px;
+}
+
+#topbar .buscador form input#query:focus {
+  outline: none;
+}
+
+/*INVERSE*/
+#topbar.navbar-inverse {
+  background: #475156;
+  border-bottom: 2px solid #2E353A;
+}
+
+#topbar.navbar-inverse * {
+  color: #fff;
+}
+
+#topbar.navbar-inverse .divider-vertical {
+  border-left: 1px solid #7A8791;
+}
+
+#topbar.navbar-inverse .buscador form button#submit {
+  background-color: #7A8791;
+}
+
+#topbar.navbar-inverse .buscador form input#query {
+  background: #2E353A;
+  color: #fff;
+}
